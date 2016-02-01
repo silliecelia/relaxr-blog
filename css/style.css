@@ -41,7 +41,7 @@ nav {
   padding-right: 150px;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: #f9e42e;
   padding-right: 50px;
@@ -90,12 +90,20 @@ body {
 }
 
 .read-more {
+  text-decoration: none;
   color: #033048;
   font-weight: 600;
   font-size: 24px;
   float: right;
   padding-top: 50px;
   padding-bottom: 40px;
+}
+
+hr {
+  border-color: #033048;
+  stroke-width: 2px;
+  margin-top: 50px;
+  clear: both;
 }
 
 /* Second Post */
@@ -143,6 +151,11 @@ aside {
   font-size: 24px;
   padding-bottom: 30px;
   line-height: 30px;
+}
+
+li a {
+  text-decoration: none;
+  color: red;
 }
 
 .about-title {
