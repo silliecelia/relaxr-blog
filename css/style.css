@@ -1,0 +1,241 @@
+/*
+Project Name: Relaxr Blog
+Author: Celia Chung
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Header */
+header {
+  background-color: #033048;
+  width: 100%;
+  height: 120px;
+}
+
+.logo {
+  color: #fff;
+  font-weight: 800;
+  font-size: 48px;
+  padding-left: 150px;
+  padding-top: 35px;
+  float: left;
+}
+
+nav {
+  color: #f9e42e;
+  float: right;
+  font-weight: 600;
+  font-size: 24px;
+  padding-top: 48px;
+  padding-right: 150px;
+}
+
+a {
+  text-decoration: none;
+  color: #f9e42e;
+  padding-right: 50px;
+}
+
+hr {
+  width: 700px;
+  color: #033048;
+}
+
+/* Body */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f0efef;
+}
+
+.main {
+  width: 700px;
+  padding-left: 150px;
+  padding-top: 50px;
+  margin-bottom: 100px;
+  float: left;
+  box-sizing: border-box;
+}
+
+/* First Post */
+.title-1 {
+  font-weight: 600;
+  font-size: 40px;
+  color: #033048;
+  line-height: 50px;
+  width: 700px;
+}
+
+.image-1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.text-1 {
+  color: #606161;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+  width: 700px;
+}
+
+.read-more {
+  color: #033048;
+  font-weight: 600;
+  font-size: 24px;
+  float: right;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+/* Second Post */
+.second-post {
+  margin-top: 50px;
+}
+
+.title-2 {
+  font-weight: 600;
+  font-size: 40px;
+  color: #033048;
+  line-height: 50px;
+  width: 700px;
+}
+
+.image-2 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+/* Sidebar */
+aside {
+  width: 240px;
+  padding-top: 50px;
+  padding-right: 150px;
+  margin-left: 200px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.categories {
+  width: 240px;
+}
+
+.categories-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: #033048;
+  padding-bottom: 20px;
+}
+
+.categories-links {
+  color: #033048;
+  font-weight: 300;
+  font-size: 24px;
+  padding-bottom: 30px;
+  line-height: 30px;
+}
+
+.about-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: #033048;
+  padding-bottom: 20px;
+}
+
+.about-relaxr {
+  padding-bottom: 50px;
+}
+
+.about-text {
+  color: #033048;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 25px;
+}
+
+.learn-more {
+  color: #033048;
+  font-weight: 800;
+  font-size: 22px;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.ad-unit {
+  margin-top: 30px;
+  float: left;
+}
+
+/* Sign Up Now */
+.sign-up-now {
+  font-size: 24px;
+  font-weight: 800;
+  background-color: #f9e42e;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 100px;
+  clear: both;
+}
+
+.sign-up-now-btn {
+  background-color: #033048;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  width: 300px;
+  height: 80px;
+  padding-top: 25px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  background-color: #121212;
+  color: #f9e42e;
+  width: 100%;
+  height: 300px;
+  padding-top: 50px;
+  text-align: center;
+  clear: both;
+}
+
+.bottom-relaxr {
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.twitter {
+  padding-top: 30px;
+  padding-right: 20px;
+  display: inline-block;
+}
+
+.facebook {
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.copyright {
+  padding-top: 70px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  color:#fff;
+}
+
