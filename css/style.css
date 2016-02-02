@@ -32,6 +32,12 @@ header {
   float: left;
 }
 
+a {
+  text-decoration: none;
+  padding-right: 50px;
+  color: #033048;
+}
+
 nav {
   color: #f9e42e;
   float: right;
@@ -101,7 +107,7 @@ body {
 
 hr {
   border-color: #033048;
-  stroke-width: 2px;
+  border-width: 1px;
   margin-top: 50px;
   clear: both;
 }
@@ -151,11 +157,6 @@ aside {
   font-size: 24px;
   padding-bottom: 30px;
   line-height: 30px;
-}
-
-li a {
-  text-decoration: none;
-  color: red;
 }
 
 .about-title {
