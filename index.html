@@ -9,12 +9,7 @@
             <link rel="stylesheet" type="text/css" href="css/reset.css">
             <link rel="stylesheet" type="text/css" href="css/style.css">
             <title>Relaxr</title>
-            <script type="text/javascript">
-                var signUpNow = $('');
-                $("sign-up-now-btn").click(function() {
-                alert("We are not currently taking sign ups"); 
-                }
-            </script>
+            <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
         </head>
 
         <body>
@@ -71,6 +66,7 @@
 
                         <p class="read-more">
                             <a href="#">Read More ></a>
+                            <p>hello hello hello</p>
                         </p>
                     </div>
                     <hr>
@@ -122,11 +118,11 @@
             </aside>
 
             <div class="sign-up-now">
-                <div class="sign-up-now-btn">
-                                    <p>Sign up now!</p>
-                    <a href="#">Sign up now!</a>
+                <button class="sign-up-now-btn">Sign Up Now</button>
                 </div>
             </div>
+
+
 
             <footer>
                     <div class="bottom-relaxr">Relaxr
@@ -144,5 +140,19 @@
                         <p>Copyright 2015. Relaxr</p>
                     </div>
             </footer>
+            <script type="text/javascript">
+                var signUpNow = $('.sign-up-now-btn');
+                signUpNow.click(function() {
+                    alert("We are not currently taking sign ups");
+                    signUpNow.html('No Sign Ups!')
+                });
+
+                var readMore = $('.read-more');
+                readMore.click(function(){
+                    $("p").slideDown();
+                });
+
+
+            </script>
         </body>
     </html>
