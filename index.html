@@ -9,7 +9,7 @@
             <link rel="stylesheet" type="text/css" href="css/reset.css">
             <link rel="stylesheet" type="text/css" href="css/style.css">
             <title>Relaxr</title>
-            <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+            <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>      
         </head>
 
         <body>
@@ -123,7 +123,7 @@
 
             <div class="sign-up-now">
                 <button class="sign-up-now-btn">Sign Up Now</button>
-                </div>
+                <!-- </div> -->
             </div>
 
 
@@ -144,20 +144,10 @@
                         <p>Copyright 2015. Relaxr</p>
                     </div>
             </footer>
-            <script type="text/javascript">
-                var signUpNow = $('.sign-up-now-btn');
-                signUpNow.click(function() {
-                    alert("We are not currently taking sign ups");
-                    signUpNow.html('No Sign Ups!')
-                });
 
-                $(".more-text").hide();
-                
-                var readMore = $('.read-more');
-                readMore.click(function(){
-                $("p.more-text").slideToggle();
-                });
 
-            </script>
+           
+            <script src="js/main.js"></script>
+          
         </body>
     </html>
