@@ -8,7 +8,11 @@
                 
                 var readMore = $('.read-more');
                 readMore.click(function(){
-                $(".more-text").show();
+                if $(".more-text").show();
+                } else {
+
+                }
+
                 });
 
                 var readLess = $('.read-more');
@@ -25,4 +29,25 @@
     // });            
 
 
-    // alert('working');            
+    // alert('working');     
+
+
+    function switchLights() {
+  if (lights === 'on'){
+    $('body').css('background-color','#000000');
+    lights = 'off';
+  } else {
+    lights = 'on';
+    $('body').css('background-color','#ffffff');
+  }
+}
+
+function readMore() {
+  if ( === 'on'){
+    $('body').css('background-color','#000000');
+    lights = 'off';
+  } else {
+    lights = 'on';
+    $('body').css('background-color','#ffffff');
+  }
+}       
