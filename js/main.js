@@ -12,8 +12,8 @@
                 });
 
                 var readLess = $('.read-more');
-                signUpNow.click(function() {
-                signUpNow.html('Read Less')
+                readLess.click(function() {
+                readLess.html('Read Less')
                 });
 
 
