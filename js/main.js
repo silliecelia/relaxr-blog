@@ -5,6 +5,7 @@
                 });
 
                 $(".more-text").hide();
+                var show = false;
 
                 var readMore = $('.read-more');
                 
