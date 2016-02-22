@@ -8,7 +8,7 @@
                 
                 var readMore = $('.read-more');
                 readMore.click(function(){
-                $("p.more-text").slideToggle();
+                $("more-text").show();
                 });
 
 
