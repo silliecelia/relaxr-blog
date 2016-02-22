@@ -8,7 +8,12 @@
                 
                 var readMore = $('.read-more');
                 readMore.click(function(){
-                $("more-text").show();
+                $(".more-text").show();
+                });
+
+                var readLess = $('.read-more');
+                signUpNow.click(function() {
+                signUpNow.html('Read Less')
                 });
 
 
