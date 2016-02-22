@@ -13,7 +13,7 @@
 
                 var readLess = $('.read-more');
                 readLess.click(function() {
-                readLess.html('Read Less')
+                readLess.html('Read Less');
                 $(".more-text").hide();
                 });
 
